@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 0.78vw;
+  background-color: #424242;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #686868;
+  border-radius: 1.17vw;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Oxygen";
+  font-weight: 400;
+  background: #F5F5F5;
+  color: hsl(0deg, 0%, 20%);
+  overflow-x: hidden;
+  height: auto;
+}
+
+a {
+  padding: 10px;
+  color: hsl(0deg, 0%, 20%);
+  text-decoration: none;
+}
+
+button {
+  background: hsl(0deg, 0%, 20%);
+  border: 0;
+  color: hsl(51deg, 18%, 92%);
+}
+
+.inside {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.img-outer {
+  background: hsl(0deg, 0%, 20%);
+}
+
+.moon-outer {
+  background: hsl(53deg, 24%, 86%);
+  margin-top: 80px;
+}
+
+._lock {
+  position: relative;
+  overflow: hidden;
+}
+
+.big-name {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: "Libre Baskerville";
+  color: hsl(0deg, 0%, 20%);
+}
+
+.sub-name {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: hsla(0deg, 0%, 20%, 0.9);
+  margin-top: 28px;
+}
+
+#upbutton {
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  z-index: 999;
+}/*# sourceMappingURL=style.css.map */

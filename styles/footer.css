@@ -1,0 +1,69 @@
+.moon {
+  height: 813px;
+  max-width: 1240px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.moon-im {
+  margin-top: 84px;
+}
+.moon-im p {
+  font-family: "Libre Baskerville";
+  font-size: 22px;
+  line-height: 28px;
+  margin-top: 90px;
+}
+.moon-links {
+  width: 65%;
+}
+.moon-links_social {
+  display: flex;
+  margin-top: 84px;
+  margin-left: auto;
+  width: 180px;
+}
+.moon-links_pages {
+  display: flex;
+  margin: 91px 0 0 auto;
+  max-width: 620px;
+  flex-wrap: wrap;
+}
+.moon-links_pages-sub {
+  margin-right: 70px;
+  margin-bottom: 20px;
+}
+.moon-links_pages-sub:last-child {
+  margin-right: 0;
+}
+.moon-links_pages ul {
+  list-style: none;
+}
+.moon-links_pages li {
+  text-decoration: none;
+  margin: 24px 10px 10px 0;
+  font-family: "Oxygen";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.moon-links_pages p {
+  margin-left: 10px;
+  font-family: "Oxygen";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.by {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+}
+.by span img {
+  position: relative;
+  top: 5px;
+}
+.by span a {
+  padding: 0;
+}/*# sourceMappingURL=footer.css.map */
