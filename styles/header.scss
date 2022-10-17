@@ -30,35 +30,36 @@
             margin-right: 42px;
             line-height: 20px;
             &:last-child {
-                margin-right: 30px;
+                margin-right: 80px;
+                a {
+                    padding: 10px 10px 10px 23px;
+                    &:hover {
+                        border-bottom: 0;
+                    }
+
+                    img {
+                        width: 38px;
+                        height: 1px;
+                        background-color: black;
+                        position: relative;
+                        bottom: 3px;
+                    } 
+                }
             }
         }
 
         a:hover {
             border-bottom: 2px solid black;
         }
-        
-    }
 
-    &-login {
-        width: 306px;
-        border-left: 1px solid black;
-
-        &_sign {
-            display: flex;
-
-            a {
-                display: flex;
-                margin: 20px 0 0 33px;
-    
-                div {
-                    width: 38px;
-                    height: 1px;
-                    background-color: black;
-                    margin:10px 0 0 32px;
-                }
-            }
+        div {
+            width: 1px;
+            height: 80px;
+            position: absolute;
+            top: 0;
+            background-color: black;
         }
+        
     }
 
     &-burger {

@@ -45,6 +45,16 @@
   }
   .menu-main ul li {
     margin-bottom: 20px;
+    width: 100%;
+  }
+  .menu-main ul li:last-child div {
+    display: none;
+  }
+  .menu-main ul li:last-child a {
+    padding: 10px;
+  }
+  .menu-main ul li:last-child a img {
+    display: none;
   }
   .menu-main ul a {
     font-size: 40px;
@@ -151,6 +161,12 @@
   .contacts-input button a {
     padding: 16px 33%;
   }
+  .explore h1 {
+    font-size: 30px;
+  }
+  .explore p {
+    padding: 0 15px;
+  }
 }
 @media (max-width: 414px) {
   .hompages-sub_block img {
@@ -171,7 +187,18 @@
     max-width: 340px;
     margin: 0 auto;
   }
+  .menu-main ul li {
+    width: 90%;
+  }
+  .menu-main ul li a {
+    font-size: 30px;
+  }
 }
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 ._active {
   transform: translate(0%, 0);
   -webkit-transform: translate(0%, 0);

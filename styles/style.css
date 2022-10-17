@@ -18,10 +18,6 @@
   border-radius: 1.17vw;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: "Oxygen";
   font-weight: 400;

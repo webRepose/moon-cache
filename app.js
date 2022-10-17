@@ -6,7 +6,6 @@ if (burger) {
     burger.addEventListener("click", function(e) {
         burger.classList.toggle('_activeBtn');
         menuMobile.classList.toggle('_active');
-        select.classList.toggle('menu-login_active');
         scroll.classList.toggle('_lock');
     })
 }
@@ -15,7 +14,6 @@ function Links() {
     burger.classList.remove('_activeBtn');
     menuMobile.classList.remove('_active');
     scroll.classList.remove('_lock');
-    select.classList.remove('menu-login_active');
 }
 
 const link = document.querySelector(".link");
